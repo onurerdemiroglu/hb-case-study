@@ -20,7 +20,7 @@ public class CommentSteps {
     }
     @Given("I search for {string}")
     public void iSearchForKeyword(String keyword) {
-        _homePage.Search(keyword);
+        _homePage.search(keyword);
     }
     @And("I click the search button")
     public void iClickTheSearchButton() {

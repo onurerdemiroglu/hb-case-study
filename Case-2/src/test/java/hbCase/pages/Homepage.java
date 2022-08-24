@@ -14,7 +14,8 @@ public class Homepage extends Helper {
     public WebElement searchBox;
     @FindBy(css = ".SearchBoxOld-buttonContainer")
     public WebElement searchButton;
-    public void Search(String text) {
+
+    public void search(String text) {
         clickElement(searchBox);
         sendKeysElement(searchBox, text);
     }

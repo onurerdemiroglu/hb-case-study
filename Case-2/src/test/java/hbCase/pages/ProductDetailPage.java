@@ -22,6 +22,7 @@ public class ProductDetailPage extends Helper {
     public List<WebElement> comments;
     @FindBy(xpath = "//span[contains(@class,'hermes-ReviewCard-module') and text()='Teşekkür Ederiz.']")
     public List<WebElement> thankYouMessage;
+
     public void goToCommentsSection() {
         switchLastTab();
         numberOfComments = Integer.parseInt(numberOfEvaluation.getText().replaceAll("\\D+",""));
