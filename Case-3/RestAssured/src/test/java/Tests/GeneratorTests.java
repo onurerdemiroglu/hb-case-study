@@ -51,7 +51,7 @@ public class GeneratorTests {
     @Owner("Onur ERDEMIROGLU")
     @Severity(SeverityLevel.CRITICAL)
     @Description("Post Client - Verify that Status code is 200")
-    void postClients() {
+    public void postClients() {
         String requestUrl = String.format("%s/java", baseUrl);
 
         String requestBody = "{\n" +
