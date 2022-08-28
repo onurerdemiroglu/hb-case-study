@@ -33,6 +33,11 @@ public class Helper {
         element.sendKeys(value);
     }
 
+    public void navigateToUrl(String url) {
+        driver.get(url);
+        Log4j.info(String.format("Navigated to '%s'", driver.getCurrentUrl()));
+    }
+
     public String getText(WebElement element) {
         wait.until(ExpectedConditions.visibilityOf(element));
         return element.getText();

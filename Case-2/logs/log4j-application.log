@@ -1,0 +1,16 @@
+2022-08-28 12:40:55 INFO  Log4j:8 - Test is Starting...
+2022-08-28 12:41:00 INFO  Log4j:17 - Navigated to 'https://www.hepsiburada.com/'
+2022-08-28 12:41:00 INFO  Log4j:17 - I type 'iPhone' in the search box.
+2022-08-28 12:41:01 INFO  Log4j:17 - I click the search button.
+2022-08-28 12:41:03 INFO  Log4j:17 - I click on the detail page of the first product in the results.
+2022-08-28 12:41:05 INFO  Log4j:17 - Going to the Evaluation section.
+2022-08-28 12:41:07 INFO  Log4j:17 - The confirmation button of the first evaluation was clicked.
+2022-08-28 12:41:07 INFO  Log4j:17 - I saw the 'Tesekkur Ederiz.' notification.
+2022-08-28 12:41:07 INFO  Log4j:12 - Test is Ending...
+2022-08-28 12:41:07 INFO  Log4j:8 - Test is Starting...
+2022-08-28 12:41:11 INFO  Log4j:17 - Navigated to 'https://www.hepsiburada.com/'
+2022-08-28 12:41:11 INFO  Log4j:17 - I type 'Dünyamızı Koruyalım - Havayı Temiz Tutalım' in the search box.
+2022-08-28 12:41:12 INFO  Log4j:17 - I click the search button.
+2022-08-28 12:41:13 INFO  Log4j:17 - I click on the detail page of the first product in the results.
+2022-08-28 12:41:15 INFO  Log4j:17 - The step was skipped because no evaluation was found.
+2022-08-28 12:41:15 INFO  Log4j:12 - Test is Ending...
