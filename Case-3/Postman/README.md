@@ -70,9 +70,9 @@ pm.test("Status code is 200", function () {
 ##  ![postman monitoring](https://user-images.githubusercontent.com/35347777/147594384-6d3a8248-fb31-450f-8f8c-e7a786057fcb.png) Postman Monitör
 
 <details>
-  <summary> <i>Monitörü görüntülemek için tıklayın (24 saatlik veri)</i></summary>
+  <summary> <i>Monitörü görüntülemek için tıklayın.</i></summary>
    
-Guncellenecektir.
+![postman-monitor](https://user-images.githubusercontent.com/35347777/187251202-db14b71d-3a7c-4499-a164-ded1d3ac884b.png)
 
 </details>
 
