@@ -8,7 +8,7 @@ import io.restassured.response.Response;
 import org.apache.http.HttpStatus;
 import org.testng.Assert;
 
-public class MediumSteps {
+public class SwaggerSteps {
     String baseUrl = ConfigReader.get("baseUrl") ;
     Response response;
 
