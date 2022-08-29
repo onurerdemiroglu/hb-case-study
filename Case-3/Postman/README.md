@@ -45,7 +45,7 @@ pm.test("Status code is 200", function () {
 }); 
 ```
 
-![Generatesclientlibrary](https://user-images.githubusercontent.com/35347777/187074647-ee2a0704-ea41-4306-a254-632a458b3e75.png)
+![Generatesclientlibrary](https://user-images.githubusercontent.com/35347777/187151601-69a72184-00d9-42a3-a704-9627c2afb6bf.png)
  
  
 ## [GET] Returns options for a client library
@@ -65,7 +65,7 @@ pm.test("Status code is 200", function () {
 }); 
 ```
 
-![returnclientlibrary](https://user-images.githubusercontent.com/35347777/187075431-e15f7b8f-8410-4f49-a9fe-efc6dc2fe5ce.png)
+![returnclientlibrary](https://user-images.githubusercontent.com/35347777/187151606-c89b7b09-bb2a-4c4f-8f0d-739cc648914c.png)
  
 ##  ![postman monitoring](https://user-images.githubusercontent.com/35347777/147594384-6d3a8248-fb31-450f-8f8c-e7a786057fcb.png) Postman Monitör
 
