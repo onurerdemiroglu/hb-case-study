@@ -30,4 +30,3 @@
 ![Returns options for a client library](https://user-images.githubusercontent.com/35347777/187076538-c9a5bdc8-6bdf-4b19-913d-7f4cbc7f003d.png)
 
 </details>
-
