@@ -82,7 +82,6 @@ public class Helper {
         when().
                 get(URI).
         then().
-                time(lessThan(3000L)).
                 extract().response();
     }
 
@@ -94,7 +93,6 @@ public class Helper {
         when().
                 post(URI).
         then().
-                time(lessThan(3000L)).
                 extract().response();
     }
 
@@ -103,10 +101,9 @@ public class Helper {
                 headers("Authorization", "Bearer " + token).
                 contentType(ContentType.JSON).
                 accept(ContentType.JSON).
-                when().
+        when().
                 delete(URI).
-                then().
-                time(lessThan(3000L)).
+        then().
                 extract().response();
     }
 
