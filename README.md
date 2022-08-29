@@ -9,4 +9,4 @@
 
 4. [x] Case - 4 :  ![github](https://user-images.githubusercontent.com/35347777/146557228-7b53da03-3d0e-4024-a246-38b1172510a0.png) [Bug Raporlama](https://github.com/onurerdemiroglu/hb-case-study/tree/main/Case-4)  
 
-4. [x] Case - 4 :  ![github](https://user-images.githubusercontent.com/35347777/146557228-7b53da03-3d0e-4024-a246-38b1172510a0.png) [Bonus](https://github.com/onurerdemiroglu/hb-case-study/tree/main/Bonus)  
+- [x] Bonus    :  ![github](https://user-images.githubusercontent.com/35347777/146557228-7b53da03-3d0e-4024-a246-38b1172510a0.png) [Bonus](https://github.com/onurerdemiroglu/hb-case-study/tree/main/Bonus)  
