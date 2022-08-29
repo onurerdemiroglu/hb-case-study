@@ -32,16 +32,8 @@
 ```
 #### Tests:
 ```javascript 
-const response = pm.response;
-
-const actualResponse = response.json();
-var size = Object.keys(actualResponse).length;  
-var responsLimit = 1000; 
-var responseTime = response.responseTime;   
-
-tests["Size control"] = size == 2;   
-tests["Code type control"] = typeof(actualResponse.code) === "string";
-tests["Link type control"] = typeof(actualResponse.link) === "string"; 
+const response = pm.response; 
+const actualResponse = response.json(); 
  
 pm.test("Status code is 200", function () { 
   if (pm.response.code=="200") {      
@@ -51,28 +43,6 @@ pm.test("Status code is 200", function () {
   }
   pm.response.to.have.status(200)   
 }); 
- 
-pm.test("Status code name has string", () => {
-  pm.expect(response.to.have.status("OK"));  
-});
-
-pm.test("Response control", function () {  
-  pm.expect(pm.response.to.have.jsonBody('code'));
-  pm.expect(pm.response.to.have.jsonBody('link'));  
-  pm.expect(response.to.be.withBody);
-  pm.expect(response.to.be.json);
-});   
-
-pm.test("Response should not be error", function () { 
-    pm.expect(response.to.not.be.error); 
-});  
-
-pm.test("Check response time", () => {  
-  if (responseTime > responsLimit) {       
-    console.log("Response time was longer than " + responsLimit + " ms " + "(" + responseTime + " ms)" + " / Response Date: " + pm.response.headers.get("Date"));
-  }
-  pm.expect(responseTime).to.be.below(responsLimit); 
-});
 ```
 
 ![Generatesclientlibrary](https://user-images.githubusercontent.com/35347777/187074647-ee2a0704-ea41-4306-a254-632a458b3e75.png)
@@ -82,12 +52,8 @@ pm.test("Check response time", () => {
   
 #### Tests:
 ```javascript 
-const response = pm.response;
-
-const actualResponse = response.json();
-var size = Object.keys(actualResponse).length;  
-var responsLimit = 1000; 
-var responseTime = response.responseTime;   
+const response = pm.response; 
+const actualResponse = response.json(); 
  
 pm.test("Status code is 200", function () { 
   if (pm.response.code=="200") {      
@@ -97,21 +63,6 @@ pm.test("Status code is 200", function () {
   }
   pm.response.to.have.status(200)   
 }); 
- 
-pm.test("Status code name has string", () => {
-  pm.expect(response.to.have.status("OK"));  
-}); 
-
-pm.test("Response should not be error", function () { 
-    pm.expect(response.to.not.be.error); 
-});  
-
-pm.test("Check response time", () => {  
-  if (responseTime > responsLimit) {       
-    console.log("Response time was longer than " + responsLimit + " ms " + "(" + responseTime + " ms)" + " / Response Date: " + pm.response.headers.get("Date"));
-  }
-  pm.expect(responseTime).to.be.below(responsLimit); 
-});
 ```
 
 ![returnclientlibrary](https://user-images.githubusercontent.com/35347777/187075431-e15f7b8f-8410-4f49-a9fe-efc6dc2fe5ce.png)
@@ -121,7 +72,7 @@ pm.test("Check response time", () => {
 <details>
   <summary> <i>Monitörü görüntülemek için tıklayın (24 saatlik veri)</i></summary>
    
-![Postman Monitor](https://user-images.githubusercontent.com/35347777/187074841-01cf6fb6-b9be-453c-b9bb-1b6b2e29a5d5.png)
+Guncellenecektir.
 
 </details>
 
@@ -133,6 +84,4 @@ Daha detaylı incelemek için [**buraya**](https://onurerdemiroglu.com.tr/hb/cas
 <details>
   <summary> (<i>Raporu görüntülemek için tıklayın</i>)</summary>
   
- ![newmanswagger](https://user-images.githubusercontent.com/35347777/187075114-49199b62-dd09-4ca2-9a32-beb6ca9afc79.png)
-
- 
+ ![newmanswagger](https://user-images.githubusercontent.com/35347777/187150561-97a800fa-6eb4-4474-8c84-01e73df3a006.png)
