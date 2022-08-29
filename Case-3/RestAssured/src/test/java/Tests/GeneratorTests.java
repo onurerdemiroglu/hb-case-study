@@ -31,8 +31,7 @@ public class GeneratorTests {
                         accept(ContentType.JSON).
                 when().
                         get(requestUrl).
-                then().
-                        time(lessThan(3000L)).
+                then(). 
                         extract().
                         response();
 
@@ -80,8 +79,7 @@ public class GeneratorTests {
                         body(requestBody).
                 when().
                         post(requestUrl).
-                then().
-                        time(lessThan(3000L)).
+                then(). 
                         extract().
                         response();
 
