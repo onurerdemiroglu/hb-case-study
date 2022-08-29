@@ -9,7 +9,7 @@ import org.apache.http.HttpStatus;
 import org.testng.Assert;
 
 public class SwaggerSteps {
-    String baseUrl = ConfigReader.get("baseUrl") ;
+    String baseUrl = ConfigReader.get("baseUrl");
     Response response;
 
     @Given("I send post request for client library")
